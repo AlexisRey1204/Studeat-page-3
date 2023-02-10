@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap');
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.titre {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.formulaire {
+    background-color: black;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+label {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+
+button.btn.btn-primary {
+    font-size: 23px;
+    margin-top: 25px;
+    background-color: #FFEB3A;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    width: 150px;
+}
+
+.bar {
+    background-color: #FFF57B;
+    height: 2pt;
+    width: 70px;
+    bottom:20px;
+    margin-bottom: 25px;
+}
+
+.points {
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.point {
+    margin-top: 70px;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#point-jaune {
+    height: 22px;
+    width: 22px;
+    background-color: #FFEB3A;
+}
+
+.zoneSaisie{
+    background-color: rgba(255, 255, 255, 0.095);
+    height: 45px;
+    margin-bottom: 25px;
+}
+
+.bouton-suivant {
+    display: flex;
+    justify-content: right;
+}
+
