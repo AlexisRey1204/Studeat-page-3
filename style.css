@@ -53,6 +53,8 @@ button.btn.btn-primary {
     justify-content: center;
     align-items: center;
     border: none;
+    position: fixed;
+    bottom: 6%;
 }
 
 .point {
@@ -60,9 +62,14 @@ button.btn.btn-primary {
     height: 15px;
     width: 15px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.point_container {
+    display: flex;
+    justify-content: center;
 }
 
 #point-jaune {
@@ -80,5 +87,36 @@ button.btn.btn-primary {
 .bouton-suivant {
     display: flex;
     justify-content: right;
+}
+
+.form-check {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+#pas_de_regime {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu_deroulant {
+    background-color: black;
+
+}
+
+.bouton-suivant {
+    display: flex;
+    justify-content: right;
+    padding-right: 10vw;
+    position: fixed;
+    bottom: 16%;
+    right: 0%;
 }
 
